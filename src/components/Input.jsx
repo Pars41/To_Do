@@ -1,12 +1,16 @@
-import React from 'react'
+import React from "react";
+import Button from '@mui/material/Button';
+
 
 const Input = () => {
   return (
     <div>
       <input type="text" />
-      <button>+</button>
+      <Button variant="contained" color="success">
+        Success
+      </Button>
     </div>
-  )
-}
+  );
+};
 
-export default Input
+export default Input;
