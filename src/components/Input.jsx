@@ -1,15 +1,15 @@
 import React from "react";
 import Button from '@mui/material/Button';
-
+import Box from '@mui/material/Box';
 
 const Input = () => {
   return (
-    <div>
+    <Box>
       <input type="text" />
       <Button variant="contained" color="success">
         Success
       </Button>
-    </div>
+    </Box>
   );
 };
 

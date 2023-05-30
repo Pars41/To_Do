@@ -12,9 +12,11 @@ function App() {
   return (
     <Box 
     sx={{
+      
       display:'flex',
       flexDirection:'column',
       justifyContent:'center',
+      alignContent:'center'
 
       
     }}>

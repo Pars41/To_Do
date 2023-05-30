@@ -11,7 +11,7 @@ const Task = () => {
     sx={{
         display:'flex',
         justifyContent:'space-between',
-        // alignContent:'center',
+        alignContent:'center',
         width: 300,
         backgroundColor: 'primary.dark',
         

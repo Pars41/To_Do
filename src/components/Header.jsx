@@ -1,8 +1,14 @@
 import React from 'react'
+import { Typography } from '@mui/material';
 
 const Header = () => {
   return (
-    <div>TO DO LIST</div>
+    <Typography variant='h3' sx={{
+        width:'30%',
+        textAlign:'center',
+        color:'#2196f3',
+        backgroundColor:'#f50057',
+        }}>TO DO LIST</Typography>
   )
 }
 
