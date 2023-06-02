@@ -4,7 +4,6 @@ import { Typography } from '@mui/material';
 const Header = () => {
   return (
     <Typography variant='h3' sx={{
-        width:'30%',
         textAlign:'center',
         color:'#2196f3',
         backgroundColor:'#f50057',
