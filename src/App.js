@@ -7,20 +7,29 @@ import "@fontsource/roboto/400.css";
 import "@fontsource/roboto/500.css";
 import "@fontsource/roboto/700.css";
 import Box from '@mui/material/Box';
+import { useState } from "react";
 
 function App() {
+  const [tasks, setTasks] = useState([])
   return (
     <Box
       sx={{
         mx:'auto',
         width:'40%',
         backgroundColor:'#ffee80',
+        
 
       }}
     >
       <Header />
-      <Input />
-      <Task />
+      <Input setTasks={setTasks} tasks={tasks}/>
+      {tasks.map((taski,i) => {
+        return(
+
+          <Task key={i} taski={taski}/>
+        )
+
+      })}
     </Box>
   );
 }
